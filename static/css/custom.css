@@ -1,0 +1,71 @@
+/* Fix for navbar in dark mode */
+body.dark .navbar-light {
+  background-color: #343a40 !important;
+}
+
+body.dark .navbar-light .navbar-nav>.nav-item>.nav-link,
+body.dark .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
+body.dark .navbar-light .navbar-brand,
+body.dark .navbar-light .navbar-toggler {
+  color: #f8f9fa !important;
+}
+
+body.dark .navbar-light .navbar-nav>.nav-item>.nav-link:hover,
+body.dark .navbar-light .navbar-nav>li.nav-item>a.active,
+body.dark .navbar-light .navbar-nav>li.nav-item>a.active:focus,
+body.dark .navbar-light .navbar-nav>li.nav-item>a.active:hover {
+  color: #fff !important;
+}
+
+body.dark .dropdown-menu {
+  background-color: #343a40 !important;
+}
+
+body.dark .dropdown-menu > li > a {
+  color: #f8f9fa !important;
+}
+
+body.dark .dropdown-menu > li > a:focus,
+body.dark .dropdown-menu > li > a:hover {
+  color: #fff !important;
+  background-color: #343a40 !important;
+}
+
+/* Fix for search input in dark mode - keep it grey */
+body.dark .container .changesearch .inputt {
+  background-color: #6c757d;
+  color: #f8f9fa;
+  border-color: #6c757d;
+}
+
+/* Fix for dropdown toggle icon in dark mode */
+body.dark .navbar-light .navbar-toggler .icon-bar {
+  background-color: #f8f9fa !important;
+}
+
+/* Fix for search box and icons in dark mode */
+body.dark .fa-search {
+  color: #f8f9fa !important;
+}
+
+/* Fix for logo in dark mode - keep it red (remove the filter) */
+body.dark .navbar-brand img {
+  filter: none !important;
+}
+
+/* Fix for search input placeholder text in dark mode */
+body.dark .container .changesearch .inputt::placeholder {
+  color: #e9ecef;
+}
+
+/* Fix for any SVG icons in the navbar */
+body.dark .navbar-light svg {
+  fill: #f8f9fa !important;
+}
+
+/* Fix for any other icons in the navbar */
+body.dark .navbar-light i.fas,
+body.dark .navbar-light i.fab,
+body.dark .navbar-light i.far {
+  color: #f8f9fa !important;
+} 
